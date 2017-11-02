@@ -728,7 +728,7 @@ interface PaymentItem {
 
 interface PaymentMethodData {
     data?: any;
-    supportedMethods: string[];
+    supportedMethods: string | string[];
 }
 
 interface PaymentOptions {
